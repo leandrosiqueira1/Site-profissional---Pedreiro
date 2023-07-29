@@ -277,7 +277,7 @@ footer{
 	border-radius: 15px 0px 0px 15px;
 }
 .conteiner-box{
-	min-width:510px;
+	min-width:460px;
 	width: 50%;
 	height:100%;
 	max-height:760px;
@@ -303,7 +303,6 @@ footer{
 }
 .conteiner-texto > h2{
 	margin-top: 20px;
-
 	color: white;
 	text-align: center;
 
@@ -323,7 +322,7 @@ footer{
 
 }
 .foto-profissional > img{
-	width: 500px;
+	width: 460px;
 	height: 100%;
 
 }
