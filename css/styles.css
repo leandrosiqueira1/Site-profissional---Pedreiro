@@ -401,7 +401,8 @@ footer{
 }
 
 .section-servico{
-	background-color: #F29F05;
+	margin-top: 10px;
+	
 	justify-content: center;
 	align-items: center;
 	text-align: center;
@@ -425,9 +426,8 @@ footer{
 
 }
 
-
 .conteiner-center{
-	display: flex;
+	
 	justify-content: center;
 	align-items: center;
 	text-align: center;
