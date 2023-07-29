@@ -345,10 +345,10 @@ footer{
 }
 .conteiner-box-bt{
 	width: 100%;
-	
 	justify-content: center;
 	align-items: center;
 	background-color: brown;
+	margin-bottom: 10px;
 
 }
 @media (max-width: 1000px){
@@ -366,7 +366,7 @@ footer{
 	font-size: 1.2em;
 }
 .fale-comigo:hover{
-
+	
 	background-color: #F29F05;
 	color:rgb(66, 147, 224);
 }
