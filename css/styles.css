@@ -278,10 +278,9 @@ footer{
 }
 .conteiner-box{
 	min-width:460px;
-	width: 50%;
+	width: 40%;
 	height:100%;
 	max-height:760px;
-	background-color: #37CC7B;
 	display: flex;
 	align-items: center;
 	justify-content: center;
