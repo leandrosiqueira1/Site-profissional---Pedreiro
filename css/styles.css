@@ -330,7 +330,6 @@ footer{
 	width: 50%;
 	height: 100%;
 	background-color: brown;
-	display: flex;
 	align-items: center;
 	justify-content: center;
 
@@ -447,4 +446,10 @@ footer{
 	align-items: center;
 	text-align: center;
 
+}
+.foto-servico img{
+	width: 360px;
+	height: 260px;
+	border-radius: 5px;
+	box-shadow: 5px 5px 5px 1px rgba(0,0,0,0.6);
 }
