@@ -262,101 +262,52 @@ footer{
 	font-family: 'Roboto-Thin' ,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
-
-.conteiner-box-foto{
-	height:600px;
-	justify-content: center;
-	align-items: center;
+.center{ 
 	display: flex;
-	margin: 10px 0px;
+	justify-content: center;
+	justify-items: center;
+	text-align: center;
 	
 }
-.conteiner-box img{
-	width: 50%;
-	height: 100%;
-	border-radius: 15px 0px 0px 15px;
-}
-.conteiner-box{
-	min-width:460px;
-	width: 40%;
-	height:100%;
-	max-height:760px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	overflow: hidden;
-	border-radius: 15px 15px 15px 15px;
-}
-
-.conteiner-texto{
-	height: 100%;
-	flex-direction: column;
-	
-}
-.conteiner-texto > p{
-	color: white;
-	padding: 5px 15px;
-	text-align: center;
-	font-family: 'Roboto-Thin' ,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
-}
-.conteiner-texto > h2{
-	margin-top: 20px;
-	color: white;
-	text-align: center;
-
-}
-.conteiner-texto > h1{
-	font-family:'Roboto-Medium','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-	font-size: 1.7em;
-	color: white;
-	text-align: center;
+.conteite-foto-profissional{
 	margin: 10px;
+	padding-bottom: 20px;
+	border-radius: 30px;
+
+
+	width:600px;
 	
+	flex-direction: row;
+	background-color: darkred;
 }
 
-.foto-profissional{
-	width: 500px;
-	background-color: blueviolet;
-
+.conteite-foto-profissional p, a, h1, h2{
+	text-align: center;
+	color: white;
+	margin: 15px;
 }
-.foto-profissional > img{
-	width: 460px;
-	height: 100%;
 
-}
-.conteiner-texto{
-	width: 50%;
-	height: 100%;
-	background-color: brown;
-	align-items: center;
-	justify-content: center;
+.foto-pedreiro img{
 
-}
-.conteiner-bt{
 	width: 100%;
-	height: 50%;
-	background-color: brown;
-	width: 100%;
-	
-	align-items: center;
+	height: 260px;
+	text-align: center;
 	justify-content: center;
-	
+	border-radius: 30px 30px 0px 0px ;
 }
-.conteiner-box-bt{
-	width: 100%;
-	justify-content: center;
-	align-items: center;
-	background-color: brown;
-	margin-bottom: 10px;
 
-}
-@media (max-width: 1000px){
+
+@media (max-width: 960px){
 .conteiner-box-bt{
 		display: block;
 	}
 }
+
+
+
 .fale-comigo{
+	display: flex;
+	height: 25px;
 	color: white;
 	padding: 10px;
 	margin: 10px;
@@ -364,6 +315,9 @@ footer{
 	border-radius: 30px;
 	text-align: center;
 	font-size: 1.2em;
+	justify-content: center;
+	align-items: center;
+	
 }
 .fale-comigo:hover{
 	
@@ -371,8 +325,9 @@ footer{
 	color:rgb(66, 147, 224);
 }
 .meus-trabalho_realizados{
-	
+	height: 25px;
 	padding: 10px;
+	overflow: hidden;
 	margin: 10px;
 	border-radius: 30px;
 	background-color: rgb(104, 226, 43);
